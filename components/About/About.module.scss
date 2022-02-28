@@ -1,0 +1,9 @@
+.reveal{
+    >div{
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    &.is-reveal{
+        opacity: 1;
+    }
+}

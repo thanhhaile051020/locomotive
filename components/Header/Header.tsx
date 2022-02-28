@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import gsap from 'gsap'
+// @ts-ignore
 import SplitText from '../utils/Split3.min.js'
 import styles from './Header.module.scss'
 const Header = () => {

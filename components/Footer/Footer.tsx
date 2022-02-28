@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import SectionHeader from '../SectionHeader/SectionHeader'
 import gasp from 'gsap'
+// @ts-ignore
 import SplitText from '../utils/Split3.min.js'
 
 import useOnScreen from '../../hooks/useOnScreen'

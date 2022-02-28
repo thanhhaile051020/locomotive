@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import SectionHeader from '../SectionHeader/SectionHeader'
 import gsap from 'gsap'
-import SplitText from '../utils/Split3.min.js'
+// @ts-ignore
+import {SplitText} from '../utils/Split3.min.js'
 import Styles from './About.module.scss'
 import useOnScreen from '../../hooks/useOnScreen'
 const About = () => {

@@ -19,7 +19,7 @@ const Home = () => {
   const debouncePreloader = useCallback(
     debounce(() => {
       setPreloader(false)
-    }, 100),
+    }, 3000),
     []
   )
   useEffect(() => {
